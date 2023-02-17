@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-counter {
+  display: flex;
+  border: 2px solid black;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+}
+
+.leftbt,
+.rightbt,
+.reset {
+  background-color: antiquewhite;
+  border: none;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  color: white;
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+}
